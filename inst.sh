@@ -20,8 +20,8 @@
 # =================================================================
 
 # mirror settings(deb and targetddurl)
-export autoDEBMIRROR1='https://gitee.com/minlearn/onekeydevdesk/raw/master'
-export autoIMGMIRROR1='https://gitee.com/minlearn/onekeydevdesk/raw/master'
+export autoDEBMIRROR1='https://github.com/blueje/onekeydevdesk/raw/master'
+export autoIMGMIRROR1='https://github.com/blueje/onekeydevdesk/raw/master'
 export FORCEMIRROR='' # force apply a fixed mirror/targetddurl selection to force override autoselectdebmirror results based on -t -m args given,for fix target ddurl,just -t url
 export FORCEMIRRORIMGSIZE='' # force apply a fixed mirror/targetddimgsize to force checktarget results based on -s args given
 export FORCEMIRRORIMGNOSEG='' # force apply the imgfile in both debmirrorsrc and imgmirrorsrc as non-seg git repo style,set to 1 to use common one-piece style
